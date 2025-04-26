@@ -1,0 +1,60 @@
+{
+    "fairness": {
+        "demographic_parity_difference": 2.138888888888889,
+        "mean_difference": 0.41414141414141414
+    },
+    "transparency": {
+        "model_accuracy": 0.5,
+        "lime_results": {
+            "feature_importance": [
+                [
+                    "ApplicationDate <= 6.75",
+                    0.4116688653758688
+                ],
+                [
+                    "Occupation > 6.00",
+                    -0.2850683885796934
+                ],
+                [
+                    "Name <= 5.75",
+                    0.2385294018345329
+                ],
+                [
+                    "ApplicantID <= 5.75",
+                    0.1897048302759936
+                ],
+                [
+                    "LoanType > 2.25",
+                    0.14443719864254084
+                ],
+                [
+                    "0.14 < LoanAmount <= 0.89",
+                    0.03882240399280153
+                ],
+                [
+                    "sex <= 0.00",
+                    -0.03876867343887536
+                ],
+                [
+                    "race > 2.00",
+                    -0.031966926340758345
+                ],
+                [
+                    "-0.08 < MonthlyIncome <= 0.91",
+                    0.030889131542940734
+                ],
+                [
+                    "-0.32 < Age <= 0.40",
+                    0.025024658887805327
+                ]
+            ]
+        }
+    },
+    "robustness": {
+        "initial_accuracy": 0.5,
+        "adversarial_accuracy": 0.5
+    },
+    "privacy": {
+        "privacy_accuracy": 0.75
+    }
+}

@@ -1,0 +1,21 @@
+ApplicantID,Name,Age,Occupation,EducationLevel,MaritalStatus,MonthlyIncome,LoanAmount,LoanType,CreditScore,ApprovalStatus,ApplicationDate,race,sex
+AID-1000,Laura Martinez,45,Sales Representative,PhD,Single,10466,41409,Home Loan,672,0,03-12-2025,Other,Female
+AID-1001,Daniel White,26,Engineer,Bachelor's Degree,Married,4280,26843,Home Loan,651,0,02-11-2025,Hispanic,Male
+AID-1002,Mia Adams,56,Teacher,Master's Degree,Divorced,6573,12906,Personal Loan,775,0,20-11-2025,Caucasian,Female
+AID-1003,Sophia Lopez,44,Designer,High School,Married,12547,29201,Personal Loan,532,1,10-09-2025,Asian,Male
+AID-1004,Michael Johnson,42,Engineer,Master's Degree,Married,5431,13236,Business Loan,421,0,23-03-2025,African-American,Female
+AID-1005,Laura Martinez,55,Accountant,High School,Married,3921,28876,Business Loan,508,1,10-01-2025,Caucasian,Male
+AID-1006,Jane Smith,41,Sales Representative,Master's Degree,Single,7554,45418,Education Loan,539,1,20-12-2025,African-American,Male
+AID-1007,Mia Adams,33,Nurse,PhD,Divorced,10618,5001,Personal Loan,587,1,14-09-2025,Asian,Male
+AID-1008,Olivia Hall,52,Engineer,PhD,Divorced,10259,46822,Business Loan,408,1,03-10-2025,Caucasian,Male
+AID-1009,Sarah Wilson,22,Nurse,High School,Single,11093,15266,Home Loan,608,0,25-02-2025,Hispanic,Female
+AID-1010,Michael Johnson,57,Consultant,Master's Degree,Married,3108,42260,Car Loan,547,1,02-04-2025,African-American,Female
+AID-1011,Mia Adams,50,Doctor,High School,Married,3953,16729,Business Loan,800,0,19-04-2025,Caucasian,Male
+AID-1012,Sarah Wilson,26,Accountant,Master's Degree,Married,7595,48143,Education Loan,617,1,18-09-2025,African-American,Female
+AID-1013,John Doe,54,Software Developer,Master's Degree,Married,14515,5616,Business Loan,824,0,21-02-2025,African-American,Male
+AID-1014,Ryan Allen,40,Engineer,Master's Degree,Single,4218,44163,Education Loan,805,0,12-02-2025,African-American,Female
+AID-1015,David Garcia,25,Accountant,PhD,Single,8673,46505,Personal Loan,829,1,04-07-2025,Asian,Male
+AID-1016,Mia Adams,26,Designer,High School,Divorced,14456,35680,Education Loan,372,1,20-09-2025,Hispanic,Male
+AID-1017,Daniel White,44,Teacher,Master's Degree,Divorced,2954,12277,Car Loan,778,0,25-07-2025,Hispanic,Female
+AID-1018,James Anderson,49,Doctor,Bachelor's Degree,Married,13168,34231,Business Loan,671,0,26-11-2025,Caucasian,Female
+AID-1019,Noah Scott,51,Manager,Master's Degree,Married,2315,42123,Car Loan,556,0,18-02-2025,Asian,Male

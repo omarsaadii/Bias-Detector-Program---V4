@@ -1,0 +1,14 @@
+Final Note (Overall Compliance Score): 0.45 (0-1 scale)
+
+Fairness Score: 0.00
+Transparency Score: 1.00
+Robustness Score: 1.00
+Privacy Score: 0.25
+Accountability:
+- Auditability: Not Present.
+  This checks if decision-making logs are available.
+- Explainability: Not Present.
+  This verifies if justifications for decisions are recorded.
+- Traceability: Not Present.
+  This ensures that model decisions are tracked over time.
+

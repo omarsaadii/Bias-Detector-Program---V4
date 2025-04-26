@@ -1,0 +1,68 @@
+{
+    "results": {
+        "fairness": {
+            "demographic_parity_difference": 1.4,
+            "mean_difference": 0.19999999999999996
+        },
+        "transparency": {
+            "model_accuracy": 1.0,
+            "lime_results": {
+                "feature_importance": [
+                    [
+                        "Occupation <= 1.00",
+                        -0.3941607776500914
+                    ],
+                    [
+                        "EducationLevel <= 0.00",
+                        -0.3547459491381772
+                    ],
+                    [
+                        "Name <= 4.75",
+                        -0.09768942213112089
+                    ],
+                    [
+                        "Age <= -0.75",
+                        0.07648753782225769
+                    ],
+                    [
+                        "ApplicantID <= 6.75",
+                        -0.07188443642033009
+                    ],
+                    [
+                        "ApplicationDate <= 1.00",
+                        0.041626079470878534
+                    ],
+                    [
+                        "MaritalStatus <= 1.00",
+                        0.03527147306612977
+                    ],
+                    [
+                        "0.00 < sex <= 1.00",
+                        0.030686915012707653
+                    ],
+                    [
+                        "1.00 < LoanType <= 2.00",
+                        0.023528148798331185
+                    ],
+                    [
+                        "-0.11 < LoanAmount <= 0.74",
+                        -0.014262036443702138
+                    ]
+                ]
+            }
+        },
+        "robustness": {
+            "initial_accuracy": 1.0,
+            "adversarial_accuracy": 1.0
+        },
+        "privacy": {
+            "privacy_accuracy": 0.25
+        }
+    },
+    "summary": {
+        "fairness": "Present",
+        "transparency": "Present",
+        "robustness": "Present",
+        "privacy": "Not Present"
+    }
+}

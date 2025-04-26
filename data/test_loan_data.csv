@@ -1,0 +1,21 @@
+ApplicantID,Name,Age,Occupation,EducationLevel,MaritalStatus,MonthlyIncome,LoanAmount,LoanType,CreditScore,ApprovalStatus,ApplicationDate,race,sex
+1,Person 1,25,Engineer,Bachelor,Married,5000,20000,Personal,750,Approved,2023-01-15,1,1
+2,Person 2,30,Teacher,Master,Single,3000,10000,Education,680,Rejected,2023-01-16,2,0
+3,Person 3,40,Doctor,Doctorate,Divorced,8000,30000,Personal,800,Approved,2023-01-17,1,0
+4,Person 4,22,Student,High School,Married,1000,5000,Education,620,Rejected,2023-01-18,2,1
+5,Person 5,35,Manager,Bachelor,Single,4000,15000,Business,700,Approved,2023-01-19,1,1
+6,Person 6,45,Engineer,Bachelor,Married,6000,25000,Personal,720,Approved,2023-01-15,1,0
+7,Person 7,50,Teacher,Master,Single,7000,10000,Education,770,Rejected,2023-01-16,2,1
+8,Person 8,60,Doctor,Doctorate,Divorced,3000,20000,Personal,690,Approved,2023-01-17,2,0
+9,Person 9,28,Student,High School,Married,2000,8000,Education,710,Rejected,2023-01-18,1,0
+10,Person 10,33,Manager,Bachelor,Single,4500,12000,Business,740,Approved,2023-01-19,1,1
+11,Person 11,44,Engineer,Bachelor,Married,3500,18000,Personal,780,Approved,2023-01-15,2,1
+12,Person 12,21,Teacher,Master,Single,2500,6000,Education,660,Rejected,2023-01-16,1,0
+13,Person 13,27,Doctor,Doctorate,Divorced,4000,14000,Personal,650,Approved,2023-01-17,2,0
+14,Person 14,31,Student,High School,Married,5500,22000,Education,670,Rejected,2023-01-18,1,1
+15,Person 15,55,Manager,Bachelor,Single,7500,26000,Business,760,Approved,2023-01-19,2,1
+16,Person 16,48,Engineer,Bachelor,Married,3800,9000,Personal,720,Approved,2023-01-15,1,0
+17,Person 17,39,Teacher,Master,Single,2900,7000,Education,680,Rejected,2023-01-16,2,1
+18,Person 18,32,Doctor,Doctorate,Divorced,4700,21000,Personal,730,Approved,2023-01-17,2,0
+19,Person 19,41,Student,High School,Married,5100,17000,Education,810,Rejected,2023-01-18,1,1
+20,Person 20,29,Manager,Bachelor,Single,3200,11000,Business,640,Approved,2023-01-19,1,0

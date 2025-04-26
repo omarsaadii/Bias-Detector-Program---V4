@@ -1,0 +1,35 @@
+  {
+    "required_columns": [
+        "ApplicantID",
+        "Name",
+        "Age",
+        "Occupation",
+        "EducationLevel",
+        "MaritalStatus",
+        "MonthlyIncome",
+        "LoanAmount",
+        "LoanType",
+        "CreditScore",
+        "ApprovalStatus",
+        "ApplicationDate",
+        "race",
+        "sex"
+    ],
+    "value_ranges": {
+        "LoanAmount": [ 0, 50000 ],
+        "MonthlyIncome": [ 0, 10000 ],
+        "Age": [ 18, 70 ],
+        "CreditScore": [ 300, 850 ]
+    },
+    "indicator_thresholds": {
+        "fairness": 0.85,
+        "transparency": 0.8,
+        "robustness": 0.85,
+        "privacy": 0.9
+    },
+    "fairness_target": "ApprovalStatus",
+    "privacy_target": "ApprovalStatus",
+    "transparency_target": "ApprovalStatus",
+    "robustness_target": "ApprovalStatus",
+    "protected_attributes": [ "sex", "race" ]
+}

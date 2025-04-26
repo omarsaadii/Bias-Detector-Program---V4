@@ -1,0 +1,73 @@
+{
+    "results": {
+        "fairness": {
+            "demographic_parity_difference": 1.4,
+            "mean_difference": 0.19999999999999996
+        },
+        "transparency": {
+            "model_accuracy": 1.0,
+            "lime_results": {
+                "feature_importance": [
+                    [
+                        "Occupation <= 1.00",
+                        -0.37867630105332184
+                    ],
+                    [
+                        "EducationLevel <= 0.00",
+                        -0.3451116893262967
+                    ],
+                    [
+                        "Name <= 4.75",
+                        -0.10103993876589107
+                    ],
+                    [
+                        "Age <= -0.75",
+                        0.0815179346206471
+                    ],
+                    [
+                        "ApplicantID <= 6.75",
+                        -0.07782322526650803
+                    ],
+                    [
+                        "ApplicationDate <= 1.00",
+                        0.037906191337628646
+                    ],
+                    [
+                        "0.00 < sex <= 1.00",
+                        0.03514399307974847
+                    ],
+                    [
+                        "MaritalStatus <= 1.00",
+                        0.03463825211672403
+                    ],
+                    [
+                        "1.00 < LoanType <= 2.00",
+                        0.032460981722143976
+                    ],
+                    [
+                        "-0.11 < LoanAmount <= 0.74",
+                        -0.015283811980404046
+                    ]
+                ]
+            }
+        },
+        "robustness": {
+            "initial_accuracy": 1.0,
+            "adversarial_accuracy": 1.0
+        },
+        "privacy": {
+            "privacy_accuracy": 0.25
+        },
+        "accountability": {
+            "auditability": false,
+            "explainability": false,
+            "traceability": false
+        }
+    },
+    "summary": {
+        "fairness": "Present",
+        "transparency": "Present",
+        "robustness": "Present",
+        "privacy": "Not Present"
+    }
+}

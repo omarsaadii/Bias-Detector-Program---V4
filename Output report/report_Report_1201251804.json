@@ -1,0 +1,68 @@
+{
+    "results": {
+        "fairness": {
+            "demographic_parity_difference": 1.4,
+            "mean_difference": 0.19999999999999996
+        },
+        "transparency": {
+            "model_accuracy": 1.0,
+            "lime_results": {
+                "feature_importance": [
+                    [
+                        "Occupation <= 1.00",
+                        -0.38712231458627894
+                    ],
+                    [
+                        "EducationLevel <= 0.00",
+                        -0.3472089098510809
+                    ],
+                    [
+                        "Name <= 4.75",
+                        -0.10280448693591544
+                    ],
+                    [
+                        "Age <= -0.75",
+                        0.0717229051244364
+                    ],
+                    [
+                        "ApplicantID <= 6.75",
+                        -0.06809699733815824
+                    ],
+                    [
+                        "MaritalStatus <= 1.00",
+                        0.03701533612280631
+                    ],
+                    [
+                        "0.00 < sex <= 1.00",
+                        0.03414410810701033
+                    ],
+                    [
+                        "ApplicationDate <= 1.00",
+                        0.030661589905379334
+                    ],
+                    [
+                        "1.00 < LoanType <= 2.00",
+                        0.026152875660399207
+                    ],
+                    [
+                        "race <= 1.00",
+                        0.01103490148282069
+                    ]
+                ]
+            }
+        },
+        "robustness": {
+            "initial_accuracy": 1.0,
+            "adversarial_accuracy": 1.0
+        },
+        "privacy": {
+            "privacy_accuracy": 1.0
+        }
+    },
+    "summary": {
+        "fairness": "Present",
+        "transparency": "Present",
+        "robustness": "Present",
+        "privacy": "Present"
+    }
+}
