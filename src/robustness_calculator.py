@@ -7,7 +7,7 @@ from art.estimators.classification import SklearnClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-# Fix: Ensure reproducibility for NumPy
+# Ensure reproducibility for NumPy
 np.random.seed(42)
 
 # Setup logging
@@ -27,12 +27,12 @@ def evaluate_robustness(df):
         target_column = df.columns[-1]
         feature_columns = list(df.columns[:-1])
 
-        # Split data into train and test sets (Fix: Set random_state=42)
+        # Split data into train and test sets (Set random_state=42)
         X = df[feature_columns]
         y = df[target_column]
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-        # Train a logistic regression model (Fix: Set random_state=42)
+        # Train a logistic regression model (Set random_state=42)
         model = LogisticRegression(max_iter=1000, random_state=42)
         model.fit(X_train, y_train)
 
@@ -43,7 +43,7 @@ def evaluate_robustness(df):
         initial_accuracy = model.score(X_test, y_test)
         logging.info(f"Initial model accuracy: {initial_accuracy}")
 
-        # Generate adversarial examples (Fix: Ensure deterministic attack if possible)
+        # Generate adversarial examples (Ensure deterministic attack if possible)
         attack = FastGradientMethod(estimator=art_classifier, eps=0.2)
         X_test_adv = attack.generate(X_test.to_numpy())
 
@@ -57,3 +57,5 @@ def evaluate_robustness(df):
     except Exception as e:
         logging.error(f"Error during robustness evaluation: {e}")
         raise
+
+

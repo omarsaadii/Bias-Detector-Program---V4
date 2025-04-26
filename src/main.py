@@ -81,7 +81,7 @@ def process_all_files(data_folder):
                         a_sum = (float(accountability_results.get("auditability", False)) +
                                  float(accountability_results.get("explainability", False)) +
                                  float(accountability_results.get("traceability", False)))
-                        # If all flags are false, set accountability to None.
+                        # If all flags are false, accountability = None.
                         if a_sum == 0:
                             accountability_score = None
                         else:
@@ -90,7 +90,7 @@ def process_all_files(data_folder):
                     logging.warning(f"Accountability evaluation failed for {file_name}: {e}")
                     accountability_score = None
 
-                # 8. Build a list of valid scores (skip any that are None).
+                # 8. list of valid scores (skip any that are None)
                 valid_scores = []
                 if fairness_score is not None:
                     valid_scores.append(fairness_score)
@@ -103,13 +103,13 @@ def process_all_files(data_folder):
                 if accountability_score is not None:
                     valid_scores.append(accountability_score)
 
-                # 9. Compute the final compliance score as the average of valid indicators.
+                # 9. final compliance score (average of valid indicators)
                 if valid_scores:
                     final_score = sum(valid_scores) / len(valid_scores)
                 else:
                     final_score = None
 
-                # 10. Append results to the list; convert None values to "NA" for output.
+                # 10. convert None values to "NA" for output
                 results_list.append({
                     "File Name": file_name,
                     "Fairness Score": fairness_score if fairness_score is not None else "NA",
@@ -124,7 +124,7 @@ def process_all_files(data_folder):
             except Exception as e:
                 logging.error(f"Error processing {file_name}: {e}")
 
-    # 11. Save all results to a consolidated CSV file.
+    # 11. Save all results to CSV file.
     if results_list:
         results_df = pd.DataFrame(results_list)
         output_dir = "Output_report"
