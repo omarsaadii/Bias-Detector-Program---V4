@@ -118,6 +118,7 @@ def process_all_files(data_folder):
                     "Privacy Score": privacy_score if privacy_score is not None else "NA",
                     "Accountability Score": accountability_score if accountability_score is not None else "NA",
                     "Final Compliance Score": final_score if final_score is not None else "NA"
+                      #test 
                 })
 
             except Exception as e:
