@@ -35,7 +35,7 @@ Bias-Detector-Program
 │ ├── transparency_calculator.py
 │ ├── accountability_calculator.py
 │ └── report_generator.py
-├── main.py # Orchestrates the full evaluation
+├── main.py # the full evaluation
 └── README.md
 
 ##  How to Run
