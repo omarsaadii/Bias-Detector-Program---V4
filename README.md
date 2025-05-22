@@ -23,7 +23,8 @@ The Bias Detector Tool is a modular Python program designed to evaluate datasets
 Each indicator returns a score from **0 to 1**. Scores closer to 1 indicate stronger ethical compliance. Scores ≥ 0.7 are marked as **"present"**, scores < 0.7 as **"not present"**, and indicators with missing inputs are marked **"not applicable (NA)"**.
 
 ## Folder Structure
-Bias-Detector-Program
+```
+Bias-Detector-tool
 ├── data/ # Input datasets (CSV)
 ├── Output_report/ # All generated reports
 ├── src/ # Core source code modules
@@ -37,7 +38,7 @@ Bias-Detector-Program
 │ └── report_generator.py
 ├── main.py # the full evaluation
 └── README.md
-
+```
 ##  How to Run
 
 1. **Install dependencies**  
