@@ -26,7 +26,6 @@ Each indicator returns a score from **0 to 1**. Scores closer to 1 indicate stro
 ```
 Bias-Detector-tool
 ├── data/ # Input datasets (CSV)
-├── Output_report/ # All generated reports
 ├── src/ # Core source code modules
 │ ├── data_loader.py
 │ ├── data_preprocessor.py
@@ -37,6 +36,7 @@ Bias-Detector-tool
 │ ├── accountability_calculator.py
 │ └── report_generator.py
 ├── main.py # the full evaluation
+├── Output_report/ # All generated reports
 └── README.md
 ```
 ##  How to Run
